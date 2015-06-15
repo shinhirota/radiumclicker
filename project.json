@@ -1,0 +1,35 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 30,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : [
+        "cocos2d",
+        "audio"
+            ],
+
+    "jsList" : [
+        "src/RcResource.js",
+
+        "src/RcGlobal.js",
+        "src/RcVoice.js",
+
+        "src/ScnMain.js",
+
+        "src/LyrBackground.js",
+        "src/LyrLabo.js",
+        "src/LyrLaboCrash.js",
+        "src/LyrLaboBoil.js",
+        "src/LyrLaboChemistry.js",
+        "src/LyrStatus.js",
+        "src/LyrVoice.js",
+        "src/LyrPopup.js",
+        "src/LyrOption.js",
+        "src/LyrConfirm.js"
+    ]
+}
